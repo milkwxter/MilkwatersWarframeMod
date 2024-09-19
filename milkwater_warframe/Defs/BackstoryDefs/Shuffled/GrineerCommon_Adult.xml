@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== grineer ============================-->
+  <BackstoryDef>
+    <defName>GrineerCommon01</defName>
+    <title>soldier</title>
+    <titleShort>soldier</titleShort>
+    <description>[PAWN_nameDef] was trained to fight and eventually sent to a rimworld to help conquer it.</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>GrineerCommon</li></spawnCategories>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+	<requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>GrineerCommon02</defName>
+    <title>sharpshooter</title>
+    <titleShort>sharpshooter</titleShort>
+    <description>[PAWN_nameDef] was expertly trained in the arts of firing a gun.</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>GrineerCommon</li></spawnCategories>
+    <skillGains>
+      <Shooting>3</Shooting>
+    </skillGains>
+	<requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>GrineerCommon03</defName>
+    <title>warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] was expertly trained in the arts of swinging a weapon.</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>GrineerCommon</li></spawnCategories>
+    <skillGains>
+      <Melee>3</Melee>
+    </skillGains>
+	<requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+</Defs>

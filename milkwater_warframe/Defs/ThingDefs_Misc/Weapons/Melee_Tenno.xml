@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Milkwater_Ceramic_Dagger</defName>
+    <label>ceramic dagger</label>
+    <description>This short blade weapon was built using ceramic. It has limited range but comes out fast.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Ceramic_Dagger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>Milkwater_Interact_Melee</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>25</Plasteel>
+    </costList>
+	<weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>0.7</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== grineer ============================-->
+  <BackstoryDef>
+    <defName>GrineerCommon00</defName>
+    <title>vatborn</title>
+    <titleShort>vatborn</titleShort>
+    <description>[PAWN_nameDef] was born in a vat.\nThis left them physically weakened.</description>
+    <slot>Childhood</slot>
+    <spawnCategories><li>GrineerCommon</li></spawnCategories>
+    <skillGains>
+      <Shooting>-3</Shooting>
+      <Melee>-5</Melee>
+    </skillGains>
+	<requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+</Defs>

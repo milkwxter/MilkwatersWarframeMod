@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Milkwater_Apparel_GrineerHelmet</defName>
+    <label>grineer space marine helmet</label>
+    <description>A helmet worn by the Grineer space marine division.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Grineer/GrineerHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2.4</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Grineer/GrineerHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>GrineerArmor</li>
+      </tags>
+	  <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+	<thingCategories Inherit="False">
+      <li>Headgear</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Milkwater_Apparel_GrineerArmor</defName>
+    <label>grineer space marine armor</label>
+    <description>A suit of armor worn by the Grineer space marine division.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Grineer/GrineerArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>80</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2.4</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Waist</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Grineer/GrineerArmor</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>GrineerArmor</li>
+      </tags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+    <thingCategories Inherit="False">
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

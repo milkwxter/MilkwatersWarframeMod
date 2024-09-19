@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <XenotypeDef>
+    <defName>GrineerXenotype</defName>
+    <label>grineer</label>
+    <description>Grineer are weak soldiers who make up with their ability to be produced in mass.</description>
+    <descriptionShort>Weak vatborn soldiers. They do not need much food to survive.</descriptionShort>
+    <iconPath>Icon/Icon_Grineer</iconPath>
+    <inheritable>true</inheritable>
+    <nameMaker>NamerPersonGrineerMale</nameMaker>
+    <nameMakerFemale>NamerPersonGrineerFemale</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <combatPowerFactor>1.0</combatPowerFactor>
+    <genes>
+		<li>WoundHealing_Fast</li>
+		<li>PsychicAbility_Deaf</li>
+		<li>MinTemp_SmallDecrease</li>
+		<li>MaxTemp_SmallIncrease</li>
+		<li>Beauty_Ugly</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Ears_Human</li>
+		<li>Head_Gaunt</li>
+		<li>Learning_Slow</li>
+		<li>Instability_Mild</li>
+		<li>AptitudeTerrible_Intellectual</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

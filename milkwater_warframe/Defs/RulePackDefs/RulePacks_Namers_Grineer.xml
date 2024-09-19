@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<RulePackDef>
+    <defName>NamerGrineerUtility</defName>
+    <rulePack>
+      <rulesFiles>        
+		<li>grineer_nameF->NameBanks/Pawn/GrineerFirstNames</li>
+		<li>grineer_nameL->NameBanks/Pawn/GrineerLastNames</li>
+		<li>grineer_number->NameBanks/Pawn/GrineerNumbers</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef> 
+  
+<RulePackDef>
+    <defName>NamerPersonGrineerMale</defName>
+	<include>
+      <li>NamerGrineerUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name(p=0.1)->[grineer_nameF]</li>
+		<li>r_name(p=4)->[grineer_nameF]-[grineer_number]</li>
+		<li>r_name(p=2)->[grineer_nameF] [grineer_nameL]-[grineer_number]</li>
+      </rulesStrings>      
+    </rulePack>
+</RulePackDef>
+
+<RulePackDef>
+    <defName>NamerPersonGrineerFemale</defName>
+	<include>
+      <li>NamerGrineerUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name(p=0.1)->[grineer_nameF]</li>
+		<li>r_name(p=4)->[grineer_nameF]-[grineer_number]</li>
+		<li>r_name(p=2)->[grineer_nameF] [grineer_nameL]-[grineer_number]</li>
+      </rulesStrings>        
+    </rulePack>
+</RulePackDef>
+
+</Defs>

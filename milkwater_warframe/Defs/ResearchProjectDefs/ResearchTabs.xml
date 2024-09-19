@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--=============== Warframe Tab ==============-->
+	<ResearchTabDef>
+		<defName>RT_Warframe</defName>
+		<label>Clan Dojo</label>
+		<generalTitle>Clan Dojo research projects</generalTitle>
+		<generalDescription>Unlock new crafting recipes for various weapons found throughout the Origin System.</generalDescription>
+	</ResearchTabDef>
+</Defs>
