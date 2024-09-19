@@ -117,14 +117,14 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Milkwater_Bullet_Zarr</defaultProjectile>
-        <warmupTime>3</warmupTime>
-        <range>40</range>
-        <burstShotCount>2</burstShotCount>
-        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <soundCast>Milkwater_Shot_Zarr_Kuva</soundCast>
+        <warmupTime>2</warmupTime>
+        <range>30</range>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Milkwater_Shot_Zarr</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-		<forcedMissRadius>2</forcedMissRadius>
+		<forcedMissRadius>1.5</forcedMissRadius>
       </li>
     </verbs>
     <tools>
@@ -146,6 +146,30 @@
         <cooldownTime>1.7</cooldownTime>
       </li>
     </tools>
+	
+	<comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>WF_Alt_Fire_Zarr</abilityDef>
+        <maxCharges>3</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>Grenade</chargeNoun>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountPerCharge>20</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+	
     <weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AbilityDef>
+    <defName>WF_Alt_Fire_Zarr</defName>
+    <label>zarr cannon</label>
+    <description>Fires a massive explosive cannonball.</description>
+    <iconPath>UI/UI_Zarr_AltFire</iconPath>
+    <displayOrder>200</displayOrder>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>30</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      <warmupTime>2.5</warmupTime>
+	  <forcedMissRadius>2</forcedMissRadius>
+      <soundCast>Milkwater_Shot_Zarr</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>Milkwater_Bullet_Zarr_Alt_Fire</projectileDef>
+      </li>
+    </comps>
+</AbilityDef>
+
+<AbilityDef>
+    <defName>WF_Alt_Fire_Fulmin</defName>
+    <label>zarr cannon</label>
+    <description>Fires a powerful slug of plasma.</description>
+    <iconPath>UI/UI_Zarr_AltFire</iconPath>
+    <displayOrder>200</displayOrder>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>30</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      <warmupTime>2.5</warmupTime>
+	  <forcedMissRadius>2</forcedMissRadius>
+      <soundCast>Milkwater_Shot_Zarr</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>Milkwater_Bullet_Zarr_Alt_Fire</projectileDef>
+      </li>
+    </comps>
+</AbilityDef>
+
+</Defs>

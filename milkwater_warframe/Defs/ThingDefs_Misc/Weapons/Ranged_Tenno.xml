@@ -217,7 +217,7 @@
     </weaponTags>
   </ThingDef>
   
-  <!--===== Cernos =====-->
+  <!--===== Kestrel =====-->
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Milkwater_Kestrel</defName>
     <label>kestrel</label>

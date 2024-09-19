@@ -4,11 +4,11 @@
 
 <!--===== Dera =====-->
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Milkwater_Dera</defName>
-    <label>dera</label>
-    <description>The Dera is a repeater that fires super-heated plasma.</description>
+    <defName>Milkwater_Dera_Vandal</defName>
+    <label>dera vandal</label>
+    <description>A customized version of the Dera, featuring a metallic finish and Lotus decal.</description>
     <graphicData>
-      <texPath>Things/Weapons/Milkwater_Dera</texPath>
+      <texPath>Things/Weapons/Milkwater_Dera_Vandal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -17,33 +17,33 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>WF_CorpusWeaponry</researchPrerequisite>
+      <researchPrerequisite>WF_VandalWeaponry</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>30000</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <Mass>5</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>1.60</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>70</Plasteel>
-	  <ComponentIndustrial>3</ComponentIndustrial>
+      <Milkwater_Dera>1</Milkwater_Dera>
+	  <ComponentVandal>3</ComponentVandal>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Milkwater_Bullet_Dera</defaultProjectile>
-        <warmupTime>1.7</warmupTime>
-		<burstShotCount>2</burstShotCount>
+        <warmupTime>1.5</warmupTime>
+		<burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <range>35</range>
+        <range>40</range>
         <soundCast>Milkwater_Shot_Dera</soundCast>
         <muzzleFlashScale>0</muzzleFlashScale>
       </li>
