@@ -16,6 +16,7 @@ Weapons:
 - Bubonico
 - Ceramic Dagger
 - Cernos (+Prime variant)
+- Dera (+Vandal variant)
 - Gorgon (+Prisma & wraith variant)
 - Grakata (+Prisma variant)
 - Grattler (+Kuva variant)
@@ -28,7 +29,7 @@ Weapons:
 - Sheev
 - Strun (+Prime & wraith variant)
 - Vulkar
-- Zarr (+Kuva variant)
+- Zarr (+Kuva variant) (+Has Alternate firing mode!)
 
 Armor:
 - Grineer space marine helmet
