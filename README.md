@@ -32,6 +32,7 @@ Weapons:
 
 Armor:
 - Grineer space marine helmet
+- Corpus crewman helmet
 - Grineer space marine armor
 
 Other items:
