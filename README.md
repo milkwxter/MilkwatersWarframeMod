@@ -8,6 +8,7 @@ This mod adds various things from Warframe to your Rimworld game!
 Enjoy new weapons and armor, crafted with new components, while fighting the new Grineer faction!
 
 Current list of all things added by this mod below:
+
 Weapons:
 - Acrid
 - AX-52
