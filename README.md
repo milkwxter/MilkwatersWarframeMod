@@ -1,6 +1,6 @@
 Welcome to my mod page!
 
-Steam workshop link: xyz
+Steam workshop link: [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3334111581)
 Github link: [here](https://github.com/milkwxter/MilkwatersWarframeMod/tree/main)
 
 This mod adds various things from Warframe to your Rimworld game!
