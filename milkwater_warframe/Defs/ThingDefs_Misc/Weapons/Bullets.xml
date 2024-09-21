@@ -51,6 +51,39 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
+    <defName>Milkwater_Bullet_Corinth</defName>
+    <label>boar blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Milkwater_Bullet_Corinth_Alt_Fire</defName>
+    <label>zarr bomb</label>
+    <graphicData>
+      <texPath>Things/Projectile/Milkwater_Bullet_Zarr_Alt_Fire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>4</explosionRadius>
+	  <damageAmountBase>25</damageAmountBase>
+	  <speed>30</speed>
+	  <explosionDelay>10</explosionDelay>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
     <defName>Milkwater_Bullet_Boar</defName>
     <label>boar blast</label>
     <graphicData>
@@ -253,6 +286,22 @@
       <stoppingPower>0.2</stoppingPower>
       <armorPenetrationBase>0.7</armorPenetrationBase>
       <speed>90</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Milkwater_Bullet_Kohmak</defName>
+    <label>kohmak bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Milkwater_Bullet_Shotgun_Orange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>0.3</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <speed>60</speed>
     </projectile>
   </ThingDef>
   

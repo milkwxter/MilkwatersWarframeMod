@@ -26,10 +26,10 @@
 </AbilityDef>
 
 <AbilityDef>
-    <defName>WF_Alt_Fire_Fulmin</defName>
-    <label>zarr cannon</label>
-    <description>Fires a powerful slug of plasma.</description>
-    <iconPath>UI/UI_Zarr_AltFire</iconPath>
+    <defName>WF_Alt_Fire_Corinth</defName>
+    <label>corinth airburst nade</label>
+    <description>Fires a grenade that will freeze in midair and then explode.</description>
+    <iconPath>UI/UI_Corinth_AltFire</iconPath>
     <displayOrder>200</displayOrder>
     <aiCanUse>true</aiCanUse>
     <verbProperties>
@@ -40,11 +40,11 @@
         </targetParams>
       <warmupTime>2.5</warmupTime>
 	  <forcedMissRadius>2</forcedMissRadius>
-      <soundCast>Milkwater_Shot_Zarr</soundCast>
+      <soundCast>Milkwater_Shot_Corinth</soundCast>
     </verbProperties>
     <comps>
       <li Class="CompProperties_AbilityLaunchProjectile">
-        <projectileDef>Milkwater_Bullet_Zarr_Alt_Fire</projectileDef>
+        <projectileDef>Milkwater_Bullet_Corinth_Alt_Fire</projectileDef>
       </li>
     </comps>
 </AbilityDef>

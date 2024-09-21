@@ -732,5 +732,81 @@
     </weaponTags>
   </ThingDef>
   
+  
+  <!-- KOHMAK -->
+<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Milkwater_Kohmak</defName>
+    <label>kohmak</label>
+    <description>A handheld plasma-spitting pistol, specializing at clearing tight corridors and narrow ventilation shafts.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Kohmak</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+	  <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Milkwater_Bullet_Kohmak</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>15</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
+        <soundCast>Milkwater_Shot_Kohmak</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+    <weaponTags>
+	<li>GrineerLight</li>
+      <li>ShortShots</li>
+	  <li>SpacerGun</li>
+    </weaponTags>
+  </ThingDef>
 
 </Defs>

@@ -532,7 +532,7 @@
         </subSounds>
     </SoundDef>
 	
-	<!--=============== Grakata ====================-->
+	<!--=============== Dera ====================-->
 	<SoundDef>
         <defName>Milkwater_Shot_Dera</defName>
         <context>MapOnly</context>
@@ -543,6 +543,83 @@
                 <grains>
                     <li Class="AudioGrain_Clip">
                         <clipPath>Weapons/Milkwater_Shot_Dera</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>35</min>
+                    <max>40</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.2</min>
+                    <max>1.25</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+	
+	<!--=============== Corinth & Corinth Prime ====================-->
+	<SoundDef>
+        <defName>Milkwater_Shot_Corinth</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/Milkwater_Shot_Corinth</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>35</min>
+                    <max>40</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.2</min>
+                    <max>1.25</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+	
+	<SoundDef>
+        <defName>Milkwater_Shot_Corinth_Prime</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/Milkwater_Shot_Corinth_Prime</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>35</min>
+                    <max>40</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.2</min>
+                    <max>1.25</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+	
+	<!--=============== Kohmak ====================-->
+	<SoundDef>
+        <defName>Milkwater_Shot_Kohmak</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/Milkwater_Shot_Kohmak</clipPath>
                     </li>
                 </grains>
                 <volumeRange>

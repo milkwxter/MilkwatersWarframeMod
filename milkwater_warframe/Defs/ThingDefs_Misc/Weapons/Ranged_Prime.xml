@@ -31,7 +31,6 @@
       <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>60</Plasteel>
 	  <ComponentPrime>3</ComponentPrime>
     </costList>
     <verbs>
@@ -106,8 +105,6 @@
       <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>60</Plasteel>
-	  <Gold>5</Gold>
 	  <ComponentPrime>3</ComponentPrime>
     </costList>
     <verbs>
@@ -173,7 +170,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>20000</WorkToMake>
+      <WorkToMake>75000</WorkToMake>
       <Mass>2</Mass>
       <AccuracyTouch>0.75</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
@@ -182,7 +179,6 @@
       <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>50</Plasteel>
 	  <ComponentPrime>3</ComponentPrime>
     </costList>
     <verbs>
@@ -213,6 +209,105 @@
     </weaponClasses>
     <weaponTags>
       <li>LongShots</li>
+	  <li>SpacerGun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <!--===== Corinth =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Milkwater_Corinth_Prime</defName>
+    <label>corinth prime</label>
+    <description>Heavy in the hand with a bone-crushing kickback. This Prime version of this shotgun keeps the airburst grenade launcher and increases firing speed.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Corinth_Prime</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+	<equippedAngleOffset>30</equippedAngleOffset>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_PrimedWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+	  <ComponentPrime>3</ComponentPrime>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Milkwater_Bullet_Corinth</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>25</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>Milkwater_Shot_Corinth</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+	
+	<comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>WF_Alt_Fire_Corinth</abilityDef>
+        <maxCharges>3</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>Grenade</chargeNoun>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountPerCharge>20</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+	
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>ShortShots</li>
 	  <li>SpacerGun</li>
     </weaponTags>
   </ThingDef>

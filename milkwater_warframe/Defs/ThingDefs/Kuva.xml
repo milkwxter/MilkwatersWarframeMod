@@ -4,7 +4,7 @@
   <!--=============== ComponentPrime ====================-->
   <ThingDef ParentName="ResourceBase">
     <defName>Kuva</defName>
-    <label>kuva</label>
+    <label>kuva drop</label>
     <description>Kuva is an exceedingly rare red fluid coveted by the Grineer Queens. Necessary for assembling powerful Kuva weapons.</description>
     <possessionCount>2</possessionCount>
     <graphicData>

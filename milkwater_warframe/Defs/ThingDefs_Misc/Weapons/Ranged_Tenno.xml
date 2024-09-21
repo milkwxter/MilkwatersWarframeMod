@@ -281,4 +281,105 @@
     </weaponTags>
   </ThingDef>
   
+  <!--===== Corinth =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Milkwater_Corinth</defName>
+    <label>corinth</label>
+    <description>Deliver a massive punch with each blast of this shotgun, or launch a round that explodes mid-air knocking down nearby enemies.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Corinth</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+	<equippedAngleOffset>30</equippedAngleOffset>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>27500</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+	  <ComponentIndustrial>5</ComponentIndustrial>
+	  <Kuva>100</Kuva>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Milkwater_Bullet_Corinth</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>20</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>Milkwater_Shot_Corinth</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+	
+	<comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>WF_Alt_Fire_Corinth</abilityDef>
+        <maxCharges>3</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>Grenade</chargeNoun>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountPerCharge>20</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+	
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>ShortShots</li>
+	  <li>SpacerGun</li>
+    </weaponTags>
+  </ThingDef>
+  
 </Defs>

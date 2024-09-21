@@ -64,9 +64,9 @@
   
   <FactionDef ParentName="WF_FactionGrineerBase">
 	<defName>WF_FactionGrineer</defName>
-	<description>The Grineer.</description>
-    <leaderTitle>kuva lich</leaderTitle>
-	<label>grineer coalition</label>
+	<description>They say there is power in numbers - the Grineer are living proof.\n\nWretched from centuries of cloning that has left their genetics in decay, this horde expands their vile empire through brute force, conquering anyone who tries to stop them.</description>
+    <leaderTitle>grineer queen</leaderTitle>
+	<label>grineer empire</label>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
 	<colorSpectrum>
       <li>(0.15, 0.50, 0.40)</li>

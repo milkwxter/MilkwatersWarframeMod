@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Kubrow -->
+  
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKubrowUnfertilized</defName>
+    <label>kubrow egg (unfert.)</label>
+    <description>An unfertilized kubrow egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <color>(228,185,135)</color>
+	  <texPath>Things/Item/Resource/AnimalProductRaw/KubrowEgg</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>100.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggKubrowFertilized</defName>
+    <label>kubrow egg (fert.)</label>
+    <description>A fertilized kubrow egg. If all goes well, it should hatch into a kubrow puppy. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <color>(245,245,245)</color>
+	  <texPath>Things/Item/Resource/AnimalProductRaw/KubrowEgg</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>100.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>WF_Kubrow</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>
