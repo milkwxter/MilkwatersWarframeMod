@@ -16,6 +16,7 @@ Weapons:
 - Bubonico
 - Ceramic Dagger
 - Cernos (+Prime variant)
+- Corinth (+Prime variant)
 - Dera (+Vandal variant)
 - Gorgon (+Prisma & wraith variant)
 - Grakata (+Prisma variant)
@@ -24,6 +25,7 @@ Weapons:
 - Karak (+Wraith variant)
 - Kesheg
 - Kestrel
+- Kohmak
 - Machete
 - Nukor (+Kuva variant)
 - Sheev
@@ -36,16 +38,20 @@ Armor:
 - Corpus crewman helmet
 - Grineer space marine armor
 
-Other items:
-- Prime parts
-- Wraith components
-- Prisma crystals
-- Vandal salvage
-- Kuva drops
-- Tenet circuits
+Creatures:
+- Underbrush Kubrow
 
 Factions
 - Grineer
 
 Xenotypes
 - Grineer (low maintenence soldiers, good for overwhelming your enemies)
+
+Other stuff:
+- Prime parts (Bought from exotic goods traders)
+- Wraith components (Dropped by grineer soldiers)
+- Prisma crystals
+- Vandal salvage
+- Kuva drops
+- Tenet circuits
+- Kubrow den & eggs
