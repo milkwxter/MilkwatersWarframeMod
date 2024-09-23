@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef Name="WF_CorpusPawn" Abstract="True">
+		<race>Human</race>
+		<defaultFactionType>WF_FactionCorpus</defaultFactionType>
+		<invNutrition>1.2</invNutrition>
+		<itemQuality>Poor</itemQuality>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelRequired>
+			<li>Milkwater_Apparel_CorpusHelmet</li>
+			<li>Milkwater_Apparel_CorpusJumpsuit</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>CorpusArmor</li>
+		</apparelTags>
+		<weaponTags>
+			<li>CorpusLight</li>
+			<li>CorpusHeavy</li>
+		</weaponTags>
+		<isFighter>true</isFighter>
+		<disallowedTraits>
+		  <li>Nudist</li>
+		</disallowedTraits>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>9~14</initialResistanceRange>
+		<specificApparelRequirements>
+		  <li>
+			<bodyPartGroup>UpperHead</bodyPartGroup>
+			<requiredTag>CorpusArmor</requiredTag>
+		  </li>
+		  <li>
+			<bodyPartGroup>Torso</bodyPartGroup>
+			<requiredTag>CorpusArmor</requiredTag>
+		  </li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="WF_CorpusPawn">
+		<defName>WF_CorpusPawn_Light</defName>
+		<label>corpus crewman</label>
+		<combatPower>50</combatPower>
+		<isFighter>true</isFighter>
+		<weaponTags>
+			<li>CorpusLight</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>1000</min>
+			<max>2000</max>
+		</weaponMoney>
+    </PawnKindDef>
+	
+	<PawnKindDef ParentName="WF_CorpusPawn">
+		<defName>WF_CorpusPawn_Heavy</defName>
+		<label>corpus crewman</label>
+		<combatPower>700</combatPower>
+		<isFighter>true</isFighter>
+		<weaponTags>
+			<li>CorpusLight</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>1000</min>
+			<max>3000</max>
+		</weaponMoney>
+    </PawnKindDef>
+	
+	<PawnKindDef ParentName="WF_CorpusPawn">
+		<defName>WF_CorpusPawn_Leader</defName>
+		<label>corpus crewman</label>
+		<combatPower>1000</combatPower>
+		<weaponTags>
+			<li>CorpusLight</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>1000</min>
+			<max>10000</max>
+		</weaponMoney>
+		<factionLeader>true</factionLeader>
+    </PawnKindDef>
+	
+</Defs>

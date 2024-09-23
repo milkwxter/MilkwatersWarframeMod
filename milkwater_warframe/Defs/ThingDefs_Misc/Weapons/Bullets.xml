@@ -305,4 +305,36 @@
     </projectile>
   </ThingDef>
   
+  <ThingDef ParentName="BaseBullet">
+    <defName>Milkwater_Bullet_GenericLaser</defName>
+    <label>corpus laser</label>
+    <graphicData>
+      <texPath>Things/Projectile/Milkwater_Bullet_Laser_Blue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>0.2</stoppingPower>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Milkwater_Bullet_Arca_Plasmor</defName>
+    <label>arca plasmor blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Milkwater_Bullet_Laser_Blue_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.4</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  
 </Defs>

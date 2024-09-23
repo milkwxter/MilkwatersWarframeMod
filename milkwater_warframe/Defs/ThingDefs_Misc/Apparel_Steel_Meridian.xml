@@ -2,12 +2,12 @@
 <Defs>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Milkwater_Apparel_CorpusHelmet</defName>
-    <label>corpus crewman helmet</label>
-    <description>A helmet worn by the Corpus crewmen.</description>
+    <defName>Milkwater_Apparel_SMGrineerHelmet</defName>
+    <label>steel meridian grineer helmet</label>
+    <description>A helmet customized by the Steel Meridian.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Apparel/Corpus/CorpusHelmet</texPath>
+      <texPath>Things/Apparel/SteelMeridian/SMGrineerHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -15,11 +15,11 @@
       <Steel>40</Steel>
     </costList>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
-      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
       <Mass>2.4</Mass>
       <Flammability>0.1</Flammability>
-      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Heat>0.75</ArmorRating_Heat>
       <Insulation_Cold>4</Insulation_Cold>
@@ -30,12 +30,12 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/Corpus/CorpusHelmet</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/SteelMeridian/SMGrineerHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>CorpusArmor</li>
+        <li>SMGrineerArmor</li>
       </tags>
 	  <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
@@ -50,28 +50,28 @@
   </ThingDef>
   
   <ThingDef ParentName="ArmorMachineableBase">
-    <defName>Milkwater_Apparel_CorpusJumpsuit</defName>
-    <label>corpus crewman jumpsuit</label>
-    <description>A jumpsuit worn by the Corpus crewmen.</description>
+    <defName>Milkwater_Apparel_SMGrineerArmor</defName>
+    <label>steel meridian grineer armor</label>
+    <description>A suit of armor customized by the Steel Meridian.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Apparel/Corpus/CorpusJumpsuit</texPath>
+      <texPath>Things/Apparel/SteelMeridian/SMGrineerArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
       <Steel>80</Steel>
     </costList>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>17000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
-      <Mass>2</Mass>
+      <Mass>2.4</Mass>
       <Flammability>0.1</Flammability>
-      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.85</ArmorRating_Heat>
-      <Insulation_Cold>8</Insulation_Cold>
-      <Insulation_Heat>6</Insulation_Heat>
-      <EquipDelay>3</EquipDelay>
+      <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
     </statBases>
     <apparel>
       <bodyPartGroups>
@@ -82,12 +82,12 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/Corpus/CorpusJumpsuit</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/SteelMeridian/SMGrineerArmor</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-        <li>CorpusArmor</li>
+        <li>SMGrineerArmor</li>
       </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>

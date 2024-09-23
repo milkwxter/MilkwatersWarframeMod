@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Milkwater_Prova</defName>
+    <label>prova</label>
+    <description>The PROVA is a melee weapon that delivers a high-intensity shock to its target. Targets hit by the PROVA will be stunned for a short duration.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Prova</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>Milkwater_Interact_Melee</soundInteract>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_CorpusWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>12500</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>30</Plasteel>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>shocking edge</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+		<extraMeleeDamages>
+			<li>
+				<def>Stun</def>
+				<amount>2</amount>
+			</li>
+		</extraMeleeDamages>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<weaponTags>
+		<li>CorpusLight</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>

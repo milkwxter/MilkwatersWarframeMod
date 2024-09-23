@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef Name="WF_SMGrineerPawn" Abstract="True">
+		<race>Human</race>
+		<defaultFactionType>WF_FactionGrineer</defaultFactionType>
+		<invNutrition>1.2</invNutrition>
+		<itemQuality>Poor</itemQuality>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelRequired>
+			<li>Milkwater_Apparel_SMGrineerHelmet</li>
+			<li>Milkwater_Apparel_SMGrineerArmor</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>SMGrineerArmor</li>
+		</apparelTags>
+		<weaponTags>
+			<li>GrineerLight</li>
+			<li>GrineerHeavy</li>
+		</weaponTags>
+		<isFighter>true</isFighter>
+		<disallowedTraits>
+		  <li>Nudist</li>
+		</disallowedTraits>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>9~14</initialResistanceRange>
+		<specificApparelRequirements>
+		  <li>
+			<bodyPartGroup>UpperHead</bodyPartGroup>
+			<requiredTag>SMGrineerArmor</requiredTag>
+		  </li>
+		  <li>
+			<bodyPartGroup>Torso</bodyPartGroup>
+			<requiredTag>SMGrineerArmor</requiredTag>
+		  </li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="WF_SMGrineerPawn">
+		<defName>WF_SMGrineerPawn_Light</defName>
+		<label>steel meridian defector</label>
+		<combatPower>50</combatPower>
+		<isFighter>true</isFighter>
+		<weaponTags>
+			<li>GrineerLight</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>500</min>
+			<max>1000</max>
+		</weaponMoney>
+    </PawnKindDef>
+	
+	<PawnKindDef ParentName="WF_SMGrineerPawn">
+		<defName>WF_SMGrineerPawn_Heavy</defName>
+		<label>steel meridian defector</label>
+		<combatPower>700</combatPower>
+		<isFighter>true</isFighter>
+		<weaponTags>
+			<li>GrineerHeavy</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>500</min>
+			<max>1000</max>
+		</weaponMoney>
+    </PawnKindDef>
+	
+	<PawnKindDef ParentName="WF_SMGrineerPawn">
+		<defName>WF_SMGrineerPawn_Leader</defName>
+		<label>steel meridian leader</label>
+		<combatPower>1000</combatPower>
+		<weaponTags>
+			<li>GrineerHeavy</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>500</min>
+			<max>10000</max>
+		</weaponMoney>
+		<factionLeader>true</factionLeader>
+    </PawnKindDef>
+	
+</Defs>

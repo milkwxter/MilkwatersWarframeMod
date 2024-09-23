@@ -24,6 +24,57 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <GrineerXenotype MayRequire="Ludeon.RimWorld.Biotech">1</GrineerXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
+	<backstoryFilters Inherit="False">
+      <li>
+        <categories>
+          <li>GrineerCommon</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+	<disallowedPrecepts>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+	</disallowedPrecepts>
+  </FactionDef>
+  
+  <ThingSetMakerDef>
+    <defName>GrineerRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>MedicineIndustrial</li>
+            <li>MealSurvivalPack</li>
+            <li>ComponentWraith</li>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+  
+  <FactionDef ParentName="WF_FactionGrineerBase">
+	<defName>WF_FactionGrineer</defName>
+	<description>They say there is power in numbers - the Grineer are living proof.\n\nWretched from centuries of cloning that has left their genetics in decay, this horde expands their vile empire through brute force, conquering anyone who tries to stop them.</description>
+    <leaderTitle>grineer queen</leaderTitle>
+	<label>grineer empire</label>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+	<colorSpectrum>
+      <li>(0.50, 0.10, 0.10)</li>
+      <li>(0.75, 0.20, 0.20)</li>
+    </colorSpectrum>
+    <factionIconPath>Icon/Icon_Grineer</factionIconPath>
+    <naturalEnemy>true</naturalEnemy>
+	<maxConfigurableAtWorldCreation>5</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>100</configurationListOrderPriority>
+	<startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+	
 	<pawnGroupMakers Inherit="False">
 		<li>
 			<!-- Normal fights, standard mix -->
@@ -44,56 +95,46 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <xenotypeSet Inherit="False">
-      <xenotypeChances>
-        <GrineerXenotype MayRequire="Ludeon.RimWorld.Biotech">1</GrineerXenotype>
-      </xenotypeChances>
-    </xenotypeSet>
-	<backstoryFilters Inherit="False">
-      <li>
-        <categories>
-          <li>GrineerCommon</li>
-        </categories>
-      </li>
-    </backstoryFilters>
-	<disallowedPrecepts>
-		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-	</disallowedPrecepts>
+	
   </FactionDef>
   
   <FactionDef ParentName="WF_FactionGrineerBase">
-	<defName>WF_FactionGrineer</defName>
-	<description>They say there is power in numbers - the Grineer are living proof.\n\nWretched from centuries of cloning that has left their genetics in decay, this horde expands their vile empire through brute force, conquering anyone who tries to stop them.</description>
-    <leaderTitle>grineer queen</leaderTitle>
-	<label>grineer empire</label>
+	<defName>WF_FactionSteelMeridian</defName>
+	<description>The steel meridian.</description>
+    <leaderTitle>defector leader</leaderTitle>
+	<label>steel meridian outcrop</label>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
 	<colorSpectrum>
-      <li>(0.15, 0.50, 0.40)</li>
-      <li>(0.35, 0.60, 0.70)</li>
+      <li>(0.50, 0.40, 0.00)</li>
+      <li>(0.75, 0.50, 0.10)</li>
     </colorSpectrum>
-    <factionIconPath>Icon/Icon_Grineer</factionIconPath>
-    <naturalEnemy>true</naturalEnemy>
+    <factionIconPath>Icon/Icon_Steel_Meridian</factionIconPath>
+    <naturalEnemy>false</naturalEnemy>
 	<maxConfigurableAtWorldCreation>5</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>100</configurationListOrderPriority>
+    <configurationListOrderPriority>101</configurationListOrderPriority>
 	<startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+	
+	<pawnGroupMakers Inherit="False">
+		<li>
+			<!-- Normal fights, standard mix -->
+			<commonality>100</commonality>
+			<kindDef>Combat</kindDef>
+			<options>
+				<WF_SMGrineerPawn_Light>10</WF_SMGrineerPawn_Light>
+				<WF_SMGrineerPawn_Heavy>0.5</WF_SMGrineerPawn_Heavy>
+				<WF_SMGrineerPawn_Leader>0.01</WF_SMGrineerPawn_Leader>
+			</options>
+		</li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+			<WF_SMGrineerPawn_Light>10</WF_SMGrineerPawn_Light>
+			<WF_SMGrineerPawn_Heavy>1</WF_SMGrineerPawn_Heavy>
+			<WF_SMGrineerPawn_Leader>0.01</WF_SMGrineerPawn_Leader>
+		</options>
+      </li>
+    </pawnGroupMakers>
+	
   </FactionDef>
-  
-  <ThingSetMakerDef>
-    <defName>GrineerRaidLootMaker</defName>
-    <root Class="ThingSetMaker_MarketValue">
-      <fixedParams>
-        <filter>
-          <thingDefs>
-            <li>Silver</li>
-            <li>MedicineIndustrial</li>
-            <li>MealSurvivalPack</li>
-            <li>ComponentWraith</li>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-      </fixedParams>
-    </root>
-  </ThingSetMakerDef>
   
 </Defs>
