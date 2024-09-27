@@ -13,8 +13,8 @@
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_PrimedWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -87,8 +87,8 @@
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_PrimedWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -161,8 +161,8 @@
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_PrimedWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -226,8 +226,8 @@
 	<equippedAngleOffset>30</equippedAngleOffset>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_PrimedWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -302,7 +302,6 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-	
     <weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>

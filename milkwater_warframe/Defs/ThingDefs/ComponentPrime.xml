@@ -22,6 +22,9 @@
       <Flammability>0.6</Flammability>
       <DeteriorationRate>2.0</DeteriorationRate>
     </statBases>
+	<thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
     <intricate>true</intricate>
 	<tradeTags>
       <li>ExoticMisc</li>

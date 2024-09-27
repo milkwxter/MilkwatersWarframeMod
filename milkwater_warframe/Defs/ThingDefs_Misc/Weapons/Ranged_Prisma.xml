@@ -13,8 +13,8 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_PrismaWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -88,8 +88,8 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_PrismaWeaponry</researchPrerequisite>
       <skillRequirements>

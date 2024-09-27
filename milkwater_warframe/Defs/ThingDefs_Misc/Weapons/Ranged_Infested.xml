@@ -15,8 +15,8 @@
 	<equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Milkwater_Interact_Infested</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_InfestedWeaponry</researchPrerequisite>
       <skillRequirements>

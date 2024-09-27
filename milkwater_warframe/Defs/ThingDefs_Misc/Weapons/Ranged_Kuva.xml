@@ -14,8 +14,8 @@
 	<equippedAngleOffset>30</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_KuvaWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -91,8 +91,8 @@
 	<equippedAngleOffset>30</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_KuvaWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -192,8 +192,8 @@
 	<equippedAngleOffset>0</equippedAngleOffset>
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_KuvaWeaponry</researchPrerequisite>
       <skillRequirements>

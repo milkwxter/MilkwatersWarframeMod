@@ -13,8 +13,8 @@
     </graphicData>
     <soundInteract>Milkwater_Interact_Melee</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
       <skillRequirements>

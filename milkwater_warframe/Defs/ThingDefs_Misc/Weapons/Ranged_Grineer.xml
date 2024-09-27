@@ -15,8 +15,8 @@
 	<equippedAngleOffset>0</equippedAngleOffset>
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -104,8 +104,8 @@
 	<equippedAngleOffset>30</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -182,8 +182,8 @@
 	<equippedAngleOffset>30</equippedAngleOffset>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -259,8 +259,8 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -335,8 +335,8 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -412,8 +412,8 @@
     <soundInteract>Interact_Rifle</soundInteract>
 	<equippedAngleOffset>45</equippedAngleOffset>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -488,8 +488,8 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -565,8 +565,8 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -642,8 +642,8 @@
 	<equippedAngleOffset>30</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -745,8 +745,8 @@
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
       <skillRequirements>

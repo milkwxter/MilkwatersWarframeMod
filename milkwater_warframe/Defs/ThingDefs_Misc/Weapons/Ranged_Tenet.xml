@@ -15,8 +15,8 @@
     <soundInteract>Interact_Shotgun</soundInteract>
 	<equippedAngleOffset>30</equippedAngleOffset>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_TenetWeaponry</researchPrerequisite>
       <skillRequirements>

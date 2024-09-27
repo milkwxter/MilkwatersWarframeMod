@@ -25,6 +25,10 @@
       <Plasteel>70</Plasteel>
 	  <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
+	<recipeMaker>
+      <recipeUsers Inherit="False">
+      </recipeUsers>
+    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

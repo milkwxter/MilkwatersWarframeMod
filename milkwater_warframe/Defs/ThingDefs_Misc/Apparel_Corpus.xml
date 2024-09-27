@@ -12,7 +12,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <costList>
-      <Steel>40</Steel>
+      <Steel>30</Steel>
     </costList>
     <statBases>
       <WorkToMake>15000</WorkToMake>
@@ -40,9 +40,13 @@
 	  <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
+	  <researchPrerequisite>WF_CorpusArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
 	<thingCategories Inherit="False">
       <li>Headgear</li>
@@ -59,7 +63,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Steel>80</Steel>
+      <Steel>60</Steel>
     </costList>
     <statBases>
       <WorkToMake>15000</WorkToMake>
@@ -91,6 +95,15 @@
       </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
+	<recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
+      </recipeUsers>
+	  <researchPrerequisite>WF_CorpusArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <thingCategories Inherit="False">
       <li>Apparel</li>
     </thingCategories>

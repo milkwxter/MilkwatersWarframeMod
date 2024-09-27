@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>WF_CreateExcaliburPsytrainers</defName>
+    <label>make excalibur psytrainers</label>
+    <description>Make a set of psytrainers for the Excalibur ability set.</description>
+    <jobString>Making excalibur psytrainers.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>25000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WF_DormantPsytrainer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+		<li>WF_DormantPsytrainer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Psytrainer_Milkwater_Excal_SlashDash MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_SlashDash>
+	  <Psytrainer_Milkwater_Excal_RadialBlind MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_RadialBlind>
+	  <Psytrainer_Milkwater_Excal_RadialJavelin MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_RadialJavelin>
+	  <Psytrainer_Milkwater_Excal_Exalted_Blade MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_Exalted_Blade>
+    </products>
+    <researchPrerequisite>WF_Warframes</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>10</displayPriority>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>WF_CreateExcaliburArmor</defName>
+    <label>make excalibur armor</label>
+    <description>Make a set of psytrainers for the Excalibur ability set.</description>
+    <jobString>Making excalibur psytrainers.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>25000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>120</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Milkwater_Apparel_ExcaliburHelmet>1</Milkwater_Apparel_ExcaliburHelmet>
+	  <Milkwater_Apparel_ExcaliburArmor>1</Milkwater_Apparel_ExcaliburArmor>
+    </products>
+    <researchPrerequisite>WF_Warframes</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>10</displayPriority>
+  </RecipeDef>
+
+</Defs>

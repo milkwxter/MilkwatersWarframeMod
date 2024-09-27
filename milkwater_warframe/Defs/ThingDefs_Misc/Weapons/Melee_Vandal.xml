@@ -4,7 +4,7 @@
 
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Milkwater_Prova_Vandal</defName>
-    <label>prova</label>
+    <label>prova vandal</label>
     <description>A customized version of the vicious Prova, with metallic finish and Lotus decal. The Vandal variant will stun for even longer.</description>
     <graphicData>
       <texPath>Things/Weapons/Milkwater_Prova_Vandal</texPath>
@@ -14,8 +14,8 @@
     <soundInteract>Milkwater_Interact_Melee</soundInteract>
 	<equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_VandalWeaponry</researchPrerequisite>
       <skillRequirements>

@@ -14,8 +14,8 @@
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -89,8 +89,8 @@
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -164,8 +164,8 @@
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -229,8 +229,8 @@
     </graphicData>
     <soundInteract>Milkwater_Interact_Melee</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -294,8 +294,8 @@
 	<equippedAngleOffset>30</equippedAngleOffset>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
       <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
       <skillRequirements>
@@ -312,9 +312,8 @@
       <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>120</Steel>
-	  <ComponentIndustrial>5</ComponentIndustrial>
-	  <Kuva>100</Kuva>
+      <Plasteel>80</Plasteel>
+	  <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>

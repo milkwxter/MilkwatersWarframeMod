@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Milkwater_Apparel_ExcaliburHelmet</defName>
+    <label>excalibur helmet</label>
+    <description>A helmet codenamed "Excalibur".</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Excalibur/ExcaliburHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>6</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Excalibur/ExcaliburHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<recipeMaker>
+      <recipeUsers Inherit="False">
+      </recipeUsers>
+    </recipeMaker>
+	<thingCategories Inherit="False">
+      <li>Headgear</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Milkwater_Apparel_ExcaliburArmor</defName>
+    <label>excalibur suit</label>
+    <description>A suit of armor codenamed "Excalibur".</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Excalibur/ExcaliburArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>80</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>6</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Waist</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Excalibur/ExcaliburArmor</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<recipeMaker>
+      <recipeUsers Inherit="False">
+      </recipeUsers>
+    </recipeMaker>
+    <thingCategories Inherit="False">
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

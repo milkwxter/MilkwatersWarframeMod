@@ -15,6 +15,20 @@
 		<researchViewY>1.1</researchViewY>
 	</ResearchProjectDef>
 	
+	<ResearchProjectDef>
+		<defName>WF_Warframes</defName>
+		<label>warframe crafting</label>
+		<description>Craft Warframe Sets. Each set comes with armor and a helmet, alongside 4 signature psycast trainers.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<tab>RT_Warframe</tab>
+		<prerequisites>
+			<li>Machining</li>
+		</prerequisites>
+		<researchViewX>1.0</researchViewX>
+		<researchViewY>0.60</researchViewY>
+	</ResearchProjectDef>
+	
 	<!--=============== grineer STUFF ==============-->
 	<ResearchProjectDef>
 		<defName>WF_GrineerWeaponry</defName>

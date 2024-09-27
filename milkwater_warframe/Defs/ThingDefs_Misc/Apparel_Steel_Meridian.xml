@@ -12,14 +12,14 @@
       <drawSize>1</drawSize>
     </graphicData>
     <costList>
-      <Steel>40</Steel>
+      <Steel>35</Steel>
     </costList>
     <statBases>
       <WorkToMake>10000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>2.4</Mass>
       <Flammability>0.1</Flammability>
-      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Heat>0.75</ArmorRating_Heat>
       <Insulation_Cold>4</Insulation_Cold>
@@ -40,9 +40,13 @@
 	  <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
       </recipeUsers>
+	  <researchPrerequisite>WF_GrineerArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
 	<thingCategories Inherit="False">
       <li>Headgear</li>
@@ -91,6 +95,15 @@
       </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
+	<recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
+      </recipeUsers>
+	  <researchPrerequisite>WF_GrineerArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <thingCategories Inherit="False">
       <li>Apparel</li>
     </thingCategories>
