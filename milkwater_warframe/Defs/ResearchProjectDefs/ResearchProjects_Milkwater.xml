@@ -136,7 +136,7 @@
 	<ResearchProjectDef>
 		<defName>WF_WraithWeaponry</defName>
 		<label>wraith arsenal</label>
-		<description>Craft wraith weapons, which feature blood-red stylization and technological advancements.</description>
+		<description>Craft wraith weapons, which feature blood-red stylization and technological advancements.\n\nWraith components can be dropped by Grineer enemies.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<tab>RT_Warframe</tab>
@@ -169,7 +169,7 @@
 	<ResearchProjectDef>
 		<defName>WF_VandalWeaponry</defName>
 		<label>vandal arsenal</label>
-		<description>Craft vandal weapons, which are fine-tuned by rebellious ninjas across the Origin System.</description>
+		<description>Craft vandal weapons, which are fine-tuned by rebellious ninjas across the Origin System.\n\nVandal salvage can be dropped by Corpus enemies.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<tab>RT_Warframe</tab>

@@ -154,5 +154,82 @@
 	  <li>SpacerGun</li>
     </weaponTags>
   </ThingDef>
+  
+  <!--===== Supra =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Milkwater_Supra</defName>
+    <label>supra</label>
+    <description>The Supra is a heavy laser gun with a short wind up time.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Supra</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>30</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_CorpusWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>70</Plasteel>
+	  <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Milkwater_Bullet_Supra</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+		<burstShotCount>14</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <range>25</range>
+        <soundCast>Milkwater_Shot_Supra</soundCast>
+        <muzzleFlashScale>0</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+	  <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>Ranged</li>
+      <li>RangedHeavy</li>
+	  <li>LongShots</li>
+    </weaponClasses>
+    <weaponTags>
+		<li>CorpusHeavy</li>
+      <li>LongShots</li>
+	  <li>SpacerGun</li>
+    </weaponTags>
+  </ThingDef>
 
 </Defs>

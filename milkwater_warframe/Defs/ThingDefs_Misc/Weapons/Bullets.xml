@@ -337,4 +337,36 @@
     </projectile>
   </ThingDef>
   
+  <ThingDef ParentName="BaseBullet">
+    <defName>Milkwater_Bullet_Rogga</defName>
+    <label>rogga blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Milkwater_Bullet_Shotgun_Orange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Milkwater_Bullet_Supra</defName>
+    <label>supra laser</label>
+    <graphicData>
+      <texPath>Things/Projectile/Milkwater_Bullet_Laser_Blue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>0.1</stoppingPower>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  
 </Defs>

@@ -808,5 +808,82 @@
 	  <li>SpacerGun</li>
     </weaponTags>
   </ThingDef>
+  
+  <!-- ROGGA -->
+<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Milkwater_Rogga</defName>
+    <label>rogga</label>
+    <description>This barrel of destruction is the signature pistol of the Kuva Guardians.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Rogga</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_GrineerWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+	  <ComponentIndustrial>4</ComponentIndustrial>
+	  <Kuva>30</Kuva>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Milkwater_Bullet_Rogga</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>20</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>Milkwater_Shot_Rogga</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+    <weaponTags>
+	<li>GrineerLight</li>
+      <li>ShortShots</li>
+	  <li>SpacerGun</li>
+    </weaponTags>
+</ThingDef>
 
 </Defs>
