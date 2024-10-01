@@ -2,58 +2,10 @@
 <Defs>
 
   <RecipeDef>
-    <defName>WF_CreateExcaliburPsytrainers</defName>
-    <label>make excalibur psytrainers</label>
-    <description>Make a set of psytrainers for the Excalibur ability set.</description>
-    <jobString>Making excalibur psytrainers.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>25000</workAmount>
-    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentSpacer</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-	  <li>
-        <filter>
-          <thingDefs>
-            <li>WF_DormantPsytrainer</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>ComponentSpacer</li>
-		<li>WF_DormantPsytrainer</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <Psytrainer_Milkwater_Excal_SlashDash MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_SlashDash>
-	  <Psytrainer_Milkwater_Excal_RadialBlind MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_RadialBlind>
-	  <Psytrainer_Milkwater_Excal_RadialJavelin MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_RadialJavelin>
-	  <Psytrainer_Milkwater_Excal_Exalted_Blade MayRequire="Ludeon.RimWorld.Royalty">1</Psytrainer_Milkwater_Excal_Exalted_Blade>
-    </products>
-    <researchPrerequisite>WF_Warframes</researchPrerequisite>
-    <skillRequirements>
-      <Crafting>8</Crafting>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
-    <displayPriority>10</displayPriority>
-  </RecipeDef>
-  
-  <RecipeDef>
     <defName>WF_CreateExcaliburArmor</defName>
     <label>make excalibur armor</label>
-    <description>Make a set of psytrainers for the Excalibur ability set.</description>
-    <jobString>Making excalibur psytrainers.</jobString>
+    <description>Make a set of Excalibur armor.</description>
+    <jobString>Making excalibur armor.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -66,7 +18,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>120</count>
+        <count>100</count>
       </li>
 	  <li>
         <filter>

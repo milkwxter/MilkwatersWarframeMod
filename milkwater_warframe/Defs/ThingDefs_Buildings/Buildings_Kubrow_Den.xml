@@ -4,8 +4,8 @@
 <ThingDef ParentName="BuildingNaturalBase">
     <defName>WF_KubrowDen</defName>
     <label>underbrush kubrow den</label>
-    <description>A den that is commonly built by underbrush kubrow.\n\nWhen destroyed it may drop a fertilized kubrow egg.</description>
-    <thingClass>Hive</thingClass>
+    <description>A den that is commonly built by underbrush kubrow.\n\nDestroying it will yield a fertilized kubrow egg.</description>
+    <thingClass>Building</thingClass>
     <graphicData>
       <texPath>Things/Building/Natural/KubrowDen</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -28,35 +28,6 @@
       <WoodLog>75</WoodLog>
 	  <EggKubrowFertilized>1</EggKubrowFertilized>
     </killedLeavings>
-    <comps>
-	  <li Class="CompProperties_CanBeDormant">
-        <startsDormant>false</startsDormant>
-        <canWakeUpFogged>false</canWakeUpFogged>
-      </li>
-      <li Class="CompProperties_WakeUpDormant" />
-      <li Class="CompProperties_SpawnerPawn">
-        <spawnablePawnKinds>
-          <li>WF_Kubrow</li>
-        </spawnablePawnKinds>
-        <spawnSound>Pawn_Warg_Call</spawnSound>
-		<lordJob>LordJob_DefendAndExpandHive</lordJob>
-        <initialPawnsPoints>100</initialPawnsPoints>
-        <maxSpawnedPawnsPoints>300</maxSpawnedPawnsPoints>
-      </li>
-      <li Class="CompProperties_SelfhealHitpoints">
-        <ticksPerHeal>6000</ticksPerHeal> <!-- 60k ticks = 1 day, 10 hp per day -->
-      </li>
-      <li Class="CompProperties_HeatPusher">
-        <heatPerSecond>6</heatPerSecond>
-        <heatPushMaxTemperature>38</heatPushMaxTemperature>
-      </li>
-      <li Class="CompProperties_SpawnerFilth">
-        <filthDef>Filth_Dirt</filthDef>
-        <spawnCountOnSpawn>10</spawnCountOnSpawn>
-        <spawnMtbHours>4</spawnMtbHours>
-        <spawnRadius>5</spawnRadius>
-      </li>
-    </comps>
   </ThingDef>
   
   </Defs>

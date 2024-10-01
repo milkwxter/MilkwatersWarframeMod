@@ -54,6 +54,21 @@
     </PawnKindDef>
 	
 	<PawnKindDef ParentName="WF_SMGrineerPawn">
+		<defName>WF_SMGrineerPawn_Trader</defName>
+		<label>steel meridian trader</label>
+		<combatPower>50</combatPower>
+		<isFighter>false</isFighter>
+		<trader>true</trader>
+		<weaponTags>
+			<li>GrineerLight</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>500</min>
+			<max>1000</max>
+		</weaponMoney>
+    </PawnKindDef>
+	
+	<PawnKindDef ParentName="WF_SMGrineerPawn">
 		<defName>WF_SMGrineerPawn_Heavy</defName>
 		<label>steel meridian defector</label>
 		<combatPower>700</combatPower>

@@ -45,8 +45,6 @@
       <li>ITab_Bills</li>
     </inspectorTabs>
 	<recipes>
-	  <li>WF_CreateDormantPsytrainer</li>
-      <li>WF_CreateExcaliburPsytrainers</li>
 	  <li>WF_CreateExcaliburArmor</li>
     </recipes>
     <comps>

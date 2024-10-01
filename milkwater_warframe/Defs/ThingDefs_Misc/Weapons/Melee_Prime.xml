@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Milkwater_Fragor_Prime</defName>
+    <label>fragor prime</label>
+    <description>A beautifully forged instrument of devastation.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Fragor_Prime</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <soundInteract>Milkwater_Interact_Melee</soundInteract>
+	<equippedAngleOffset>-45</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_PrimedWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>5</Mass>
+    </statBases>
+    <costList>
+      <ComponentPrime>3</ComponentPrime>
+    </costList>
+	<weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

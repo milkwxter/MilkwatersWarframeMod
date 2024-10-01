@@ -58,5 +58,55 @@
       </li>
     </tools>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Milkwater_Fragor</defName>
+    <label>fragor</label>
+    <description>A large two-handed hammer, the Fragor requires great strength to wield, but impacts with enough force to send groups of enemies tumbling.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Milkwater_Fragor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <soundInteract>Milkwater_Interact_Melee</soundInteract>
+	<equippedAngleOffset>-45</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableOrokin</li>
+      </recipeUsers>
+      <researchPrerequisite>WF_TennoWeaponry</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>17500</WorkToMake>
+      <Mass>5</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>50</Plasteel>
+    </costList>
+	<weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
 </Defs>
