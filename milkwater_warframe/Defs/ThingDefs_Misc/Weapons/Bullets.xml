@@ -68,7 +68,7 @@
   
   <ThingDef ParentName="BaseBullet">
     <defName>Milkwater_Bullet_Corinth_Alt_Fire</defName>
-    <label>zarr bomb</label>
+    <label>corinth airburst nade</label>
     <graphicData>
       <texPath>Things/Projectile/Milkwater_Bullet_Zarr_Alt_Fire</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -76,7 +76,7 @@
 	<thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <explosionRadius>4</explosionRadius>
+      <explosionRadius>3</explosionRadius>
 	  <damageAmountBase>25</damageAmountBase>
 	  <speed>30</speed>
 	  <explosionDelay>10</explosionDelay>

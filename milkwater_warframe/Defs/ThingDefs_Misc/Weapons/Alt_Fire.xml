@@ -7,7 +7,7 @@
     <description>Fires a massive explosive cannonball.</description>
     <iconPath>UI/UI_Zarr_AltFire</iconPath>
     <displayOrder>200</displayOrder>
-    <aiCanUse>true</aiCanUse>
+    <aiCanUse>false</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <range>30</range>
@@ -31,7 +31,7 @@
     <description>Fires a grenade that will freeze in midair and then explode.</description>
     <iconPath>UI/UI_Corinth_AltFire</iconPath>
     <displayOrder>200</displayOrder>
-    <aiCanUse>true</aiCanUse>
+    <aiCanUse>false</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <range>30</range>
